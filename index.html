@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Birthday Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google G Font--> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,500" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">   <script>https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js</script>
+        <script src="script.js"></script>
+</head>
+     
+    <body>
+        
+    <!--Outside of birthday card-->
+        <div id="outside">
+        
+            <p class="happy">Happy Birthday!</p>
+            <br>
+            <img src="GarfieldCake.JPG">
+            <button onclick="open_card()">Click for cake</button>
+            
+        </div>
+    
+        
+        
+     <!--Inside of birthday card-->  
+        <div id="inside">
+        
+            <p class="sad">Too slow!<br>Better luck next year!</p> 
+            <br>      
+            <img src="GrfieldNocake.JPG" width=345px height=140px>
+        <p><button onclick="close_card()">Click to call the pound</button></p>
+        </div>
+       
+        
+    </body>
+</html>
